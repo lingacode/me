@@ -8,7 +8,7 @@
     /* background-position: center;
     background-size: cover; */
     /* background-color: #66b3ff; */
-    background-color: #fff;
+    background-color:black;
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
@@ -22,11 +22,16 @@
     align-items: center;
     /* background: bisque; */
 }
-
+nav li a .active {
+    color: blue;
+  }
 .name h1{
     width: 160px;
     cursor: pointer;
     color: #ff004f;
+}
+.name h1 span{
+    color: #fff; 
 }
 
 nav{
@@ -40,7 +45,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-size: 20px;
 }
 p{
