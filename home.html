@@ -14,7 +14,7 @@
 
             <nav>
                 <ul>
-                    <li><a href="home.html" style="color: blue;">Home</a></li>
+                    <li><a href="home.html" style="color: #ff004f;">Home</a></li>
                     <li><a href="">News</a></li>
                     <li><a href="">Collections</a></li>
                     <li><a href="">shopping</a></li>
@@ -22,7 +22,18 @@
                 </ul>
             </nav>
         </div>
+        <p id="time" style="color:#fff"></p>
     </div>
+
 </body>
+<script>
+    function showTime() {
+        var date = new Date();
+        var time = date.toLocaleTimeString();
+        document.getElementById("time").innerHTML = time;
+    }
+
+    setInterval(showTime, 1000);
+</script>
 
 </html>

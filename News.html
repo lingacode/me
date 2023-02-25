@@ -15,15 +15,24 @@
             <nav>
                 <ul>
                     <li><a href="home.html">Home</a></li>
-                    <li><a href="News.html" style="color: blue;">News</a></li>
+                    <li><a href="News.html" style="color: #ff004f;">News</a></li>
                     <li><a href="calculater.html">Collections</a></li>
                     <li><a href="shopping.html">shopping</a></li>
                     <li><a href="calculater.html">calculater</a></li>
                 </ul>
             </nav>
         </div>
+        <p id="time" style="color:#fff"></p>
     </div>
-    <h1 style="color: #fff;">news</h1>
+    <script>
+        function showTime() {
+            var date = new Date();
+            var time = date.toLocaleTimeString();
+            document.getElementById("time").innerHTML = time;
+        }
+
+        setInterval(showTime, 1000);
+    </script>
 </body>
 
 </html>
