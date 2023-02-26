@@ -9,7 +9,9 @@
     <div class="container">
         <div class="navbar">
             <div class="name">
-                <a href="home.html"><h1 style="font-size: 50px;">L<span>ingaraj.</span></h1></a>
+                <a href="home.html">
+                    <h1 style="font-size: 50px;">L<span>ingaraj.</span></h1>
+                </a>
             </div>
 
             <nav>
@@ -17,12 +19,52 @@
                     <li><a href="home.html">Home</a></li>
                     <li><a href="News.html">News</a></li>
                     <li><a href="collection.html">Collections</a></li>
-                    <li><a href="shopping.html">shopping</a></li>
-                    <li><a href="calculater.html" style="color: #ff004f;">calculater</a></li>
+                    <li><a href="shopping.html">Shopping</a></li>
+                    <li><a href="calculater.html" style="color: #ff004f;">Calculater</a></li>
                 </ul>
             </nav>
         </div>
         <p id="time" style="color:#fff"></p>
+    </div>
+
+    <div>
+        <h1 class="text-centre">Welcome Calculate Me!</h1>
+        <div class="container  flex flex-col items-centre mx-auto m-w-20">
+            <div class="row">
+                <input class="input" type="text" />
+            </div>
+            <div class="row">
+                <button class="button">c</button>
+                <button class="button">%</button>
+                <button class="button">M+</button>
+                <button class="button">M-</button>
+            </div>
+            <div class="row">
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">*</button>
+            </div>
+
+            <div class="row">
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">/</button>
+            </div>
+            <div class="row">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">+</button>
+            </div>
+            <div class="row">
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button">=</button>
+                <button class="button">-</button>
+            </div>
+        </div>
     </div>
     <script>
         function showTime() {
@@ -34,5 +76,6 @@
         setInterval(showTime, 1000);
     </script>
 </body>
+<script src="/javascript/app.js"></script>
 
 </html>
