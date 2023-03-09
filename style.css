@@ -53,6 +53,9 @@ p{
     margin-left: 1000px;
     margin-top: -40px;
 }
+.home{
+    justify-content: center
+}
 /* calculater */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 html,body{
