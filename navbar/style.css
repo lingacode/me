@@ -1,5 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    color: #666666;
+    text-align: left;
+}
+
 .header2 {
-    /* height: 12.9vh; */
     min-width: 768px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -27,12 +39,12 @@
     /* margin-top: 1rem; */
     margin-left: 2rem;
     margin-right: 2rem;
+    display: inline;
 }
 
 .child4 {
     width: 30%;
     height: 12vh;
-    /* background-color: white; */
     text-align: right;
     color: white;
     margin-top: 0.5rem;
