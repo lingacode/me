@@ -18,7 +18,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 .logo{
@@ -50,14 +50,3 @@ nav ul li a:hover::after{
     width: 100%;
 }
 /* (end) */
-/* .header-text{
-    margin-top: 20%;
-    font-size: 30px;
-}
-.header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
-}
-.header-text h1 span{
-    color: #ff004f;
-} */
