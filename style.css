@@ -23,13 +23,16 @@
 nav li a .active {
     color: blue;
   }
-.name h1{
-    width: 160px;
+/* .name h1{
+    width: 205px;
     cursor: pointer;
     color: #ff004f;
 }
 .name h1 span{
     color: #fff; 
+} */
+.logo{
+    width: 200px;
 }
 
 nav{
