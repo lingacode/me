@@ -1,29 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
 }
-
-body {
-    background: #080808;
-    color: #fff;
-}
-
 .container {
     padding: 10px 10%;
     transition: all 0.6s ease;
+    background-color: black;
 }
 
 .container.sticky {
     /* padding: 10px 0; */
     width: 100%;
     background: #fff;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2); */
     transition: all 0.5s ease;
     position: fixed;
 }
@@ -34,11 +30,19 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-.logo {
-    width: 200px;
-    font-size: 40px;
+nav h1{
+    font-size: 50px;
+    color: #ff004f;
 }
+/* nav h1 span{
+    color: aqua;
+} */
+
+/* .logo {
+    width: 200px;
+    /* font-size: 500px; 
+    background-color: #fff;
+} */
 
 nav ul li {
     display: inline-block;
@@ -47,10 +51,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     position: relative;
+    color: #ff004f;
 }
 
 /* (this is important)//start */
@@ -68,58 +73,6 @@ nav ul li a::after {
 nav ul li a:hover::after {
     width: 100%;
 }
-
 /* (end) */
-.header-text{
-    margin-top: 20%;
-    font-size: 30px;
-}
-.header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
-}
-.header-text h1 span{
-    color: #ff004f;
-}
-/* <---------------------------calculater---------------------------------> */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-html,body{
-    height: 100%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-}
 
-.text-centre{
-    text-align: center;
-}
-.bg-red{
-    background: red;
-}
-.button{
-    width: 50px;
-    padding: 20px;
-    margin: 0 3px;
-    border: 2px solid black;
-    border-radius: 9px;
-    cursor: pointer;
-}
-.flex{
-    display: flex;
-} 
-.flex-col{
-    flex-direction: column;
-}
-.items-centre{
-    align-items: center;
-}
-.row{
-    margin:3px 0;
-}
-.row input{
-    width: 215px;
-    font-size: 20px;
-    margin: 0;
-    padding: 10px 0px;
-    border: 2px solid black;
-    border-radius: 5px
-}
+
